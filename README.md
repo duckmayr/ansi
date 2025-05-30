@@ -31,12 +31,10 @@ underline the text printed to console by setting the `bf`, `it`, and `ul`
 arguments respectively to TRUE:
 
 ```r
-ansi::fmt("This text is system red", fg = 9)
-ansi::fmt("This text is white on green", fg = "white", bg = "#005f00")
-ansi::fmt(
-    "This text is boldface, italicized, and underlined",
-    bf = TRUE, it = TRUE, ul = TRUE
-)
+cat(ansi::fmt("System red text", fg = 9), "\n")
+cat(ansi::fmt("White text on green", fg = "white", bg = "#005f00"), "\n")
+cat(ansi::fmt("Bold & italic text", bf = TRUE, it = TRUE), "\n")
+cat(ansi::fmt("Italic & underlined text", it = TRUE, ul = TRUE), "\n")
 ```
 
 ![Screen shot showing results of the code above](man/figures/ansi-ex.png)

@@ -1,6 +1,6 @@
 #' Xterm / 256 Colors
 #'
-#' A vector containing the number
+#' A named vector of Xterm numbers with the Xterm color names as labels.
 #'
 #' @format A named numeric vector with values `0:255` whose names are the
 #'   corresponding Xterm color names.
