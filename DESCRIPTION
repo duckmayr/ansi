@@ -1,0 +1,14 @@
+Package: ansi
+Title: Decorate Text Printed to Console
+Version: 0.0.0.9000
+Authors@R: 
+    person("JB", "Duck-Mayr", , "j.duckmayr@gmail.com", role = c("aut", "cre"))
+Description: ANSI escape codes are character sequences that terminal emulators
+    the R console recognize as specifying the color or style of text printed
+    to the console. This intentionally lightweight package provides a simple
+    interface to use some of this functionality, namely causing text to be a
+    different color, boldfaced, italicized, and/or underlined.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
