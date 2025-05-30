@@ -39,6 +39,8 @@ ansi::fmt(
 )
 ```
 
+![Screen shot showing results of the code above](man/figures/ansi-ex.png)
+
 As demonstrated above, you can specify text or background colors using:
 
 - Anything R recognizes as a color, such as
